@@ -53,6 +53,10 @@
     color: white;
     font-size: 16px;
 }
+#first-btn:hover{
+    color: #1914ab;
+}
+
 
 #navigation {
     display: flex;
@@ -86,6 +90,11 @@
 
 }
 
+#second-btn:hover{
+    color: #1914ab;
+}
+
+
 #banner {
     display: flex;
     flex-direction: column;
@@ -107,6 +116,7 @@
 main {
     max-width: 1000px;
     margin: 0 auto;
+    
 
 }
 
@@ -141,6 +151,9 @@ main {
     border: 0px;
     border-radius: 10px;
     color: white;
+}
+#third-btn:hover{
+    color: #1914ab;
 }
 
 #act-img {
@@ -301,6 +314,7 @@ main {
     padding-left: 0px;
 }
 
+
 .input1 {
     height: 40px;
     width: 400px;
@@ -315,7 +329,7 @@ main {
     width: 385px;
     border: #e8e9ec solid 1px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -327,4 +341,52 @@ main {
     border-radius: 10px;
     color: white;
     font-size: 16px;
+    
+}
+
+#fourth-btn:hover{
+    color: #1914ab;
+}
+
+/* *****FOOTER STYLE***** */
+#footermain{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#footer{
+  
+    text-align: center;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    padding-bottom: 100px;
+     background-color: rgba(255, 255, 255, 1);
+}
+
+.anchor{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    list-style: none;
+     background-color: rgba(255, 255, 255, 1);
+} 
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 55px;
+     background-color: rgba(255, 255, 255, 1);
+
+}
+
+#logo1{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+     background-color: rgba(255, 255, 255, 1);
+}
+#ft-dis{
+    color: rgba(137, 135, 161, 1);
+    padding: 0px 500px;
+    margin-bottom: 20px;
+     background-color: rgba(255, 255, 255, 1);
 }
