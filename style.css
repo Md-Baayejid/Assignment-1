@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+     background-color: #f4f8ff;
 }
 
 /* SHARED STYLE  */
@@ -46,6 +47,7 @@
     height: 35px;
     border: 0px;
     border-radius: 10px;
+    color: white;
 }
 #navigation{
     display: flex;
@@ -53,6 +55,8 @@
     justify-content: space-between;
     margin: 0px 150px ;
     padding: 30px 0px;
+    background-color: rgb(255, 255, 255,0) ;
+   /* opacity: 0; */
 }
 
 /* ***BANNER STYLE*** */
@@ -62,6 +66,8 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
+    background-color: rgb(0, 255, 255,0);
+   
 }
 
 #second-btn{
@@ -70,6 +76,7 @@
     height: 35px;
     border: 0px;
     border-radius: 10px;
+    color: white;
 
 }
 #banner{
@@ -81,5 +88,55 @@
    gap:30px ;
     justify-self: center;
     text-align: center;
+   background-color: rgb(0, 0, 255,0);
+    
 }
 
+
+/* ****MAIN STYLE**** */
+
+/* **ACTION STYLE** */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+
+#action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+    margin-bottom: 5px;
+}
+
+#action-detailes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 200px;
+}
+
+#act-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#act-disc{
+    color: rgba(37, 36, 50, 0.5);
+}
+
+#third-btn{
+   background-color: #4E47FF;
+   width: 230px;
+    height: 35px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+}
+#act-img{
+    height: 270px;
+    border-radius: 48px;
+    
+}
