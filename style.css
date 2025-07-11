@@ -6,7 +6,7 @@
 /* SHARED STYLE  */
 
 .font1{
-     
+     /* inter */
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -15,7 +15,7 @@
     "wdth" 100;
 }
 .font2{
-     
+     /* raleway */
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -48,6 +48,7 @@
     border: 0px;
     border-radius: 10px;
     color: white;
+    font-size: 16px;
 }
 #navigation{
     display: flex;
@@ -63,7 +64,7 @@
 
 
 #banner-title{
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 70px;
     background-color: rgb(0, 255, 255,0);
@@ -72,11 +73,12 @@
 
 #second-btn{
     background-color: #4E47FF;
-     width: 120px;
+     width: 150px;
     height: 35px;
     border: 0px;
     border-radius: 10px;
     color: white;
+   font-size: 16px;
 
 }
 #banner{
@@ -140,3 +142,63 @@ main{
     border-radius: 48px;
     
 }
+
+/* ***VIEW STYLLE*** */
+
+.about{
+ background-color: rgba(116, 113, 220, 0.1);
+}
+#views{
+   
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 24px;
+     background-color: rgba(116, 113, 220, 0.1);}
+
+#vi-discri{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(116, 113, 220, 0.1);
+
+}
+#view-title{
+    font-size: 38px;
+    font-weight: 700;
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-text1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-text2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-text3{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-title1{
+    font-size: 20;
+    color: rgba(0, 0, 0, 0.5);
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-title2{
+    font-size: 20;
+    color: rgba(0, 0, 0, 0.5);
+     background-color: rgba(116, 113, 220, 0.1);
+}
+#vi-title3{
+    font-size: 20;
+    color: rgba(0, 0, 0, 0.5);
+     background-color: rgba(116, 113, 220, 0.1);
+}
+
+
